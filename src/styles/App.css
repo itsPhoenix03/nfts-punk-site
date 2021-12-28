@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+
+* {
+  background-color: #000;
+  color: #f4f4f4;
+  font-family: "Kanit", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  max-width: 100vw;
+  padding: 20px;
+}
