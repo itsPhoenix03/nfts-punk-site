@@ -1,0 +1,57 @@
+.collectionCard {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 300px;
+  height: 550px;
+  margin-right: 30px;
+}
+
+.cardDetails {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.punkName {
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nftId {
+  background-color: transparent;
+  color: #a1a5be;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.description {
+  background-color: transparent;
+  color: #a1a5be;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.collectionCardImage {
+  width: 100%;
+}
+
+.cardPriceContainer {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+.eth-img {
+  background-color: transparent;
+  width: 15px;
+  height: 25px;
+}
+
+.cardPrice {
+  background-color: transparent;
+  font-weight: 700;
+  margin-left: 10px;
+}
