@@ -9,7 +9,7 @@ const CollectionCard = ({ id, image, name, description, price }) => {
 
       <div className="cardDetails">
         <h2 className="punkName">{name}</h2>
-        <p className="nftId">#{++id}</p>
+        <p className="nftId">#{id}</p>
         <p className="description">'{description}'</p>
 
         <div className="cardPriceContainer">
