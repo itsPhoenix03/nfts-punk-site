@@ -55,3 +55,11 @@
   font-weight: 700;
   margin-left: 10px;
 }
+
+@media (max-width: 992px) {
+  .collectionCard {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+  }
+}

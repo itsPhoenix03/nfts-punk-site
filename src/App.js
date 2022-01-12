@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./styles/App.css";
+import "./App.css";
 import Header from "./components/Header.js";
 import CardDetails from "./components/CardDetails";
 import PunkList from "./components/PunkList";
@@ -25,10 +25,10 @@ function App() {
     <div className="app">
       <Header />
       {punkList.length > 0 && (
-        <>
+        <div className="content-container">
           <CardDetails punkList={punkList} selectedPunk={selectedPunk} />
           <PunkList punkList={punkList} setSelectedPunk={setSelectedPunk} />
-        </>
+        </div>
       )}
     </div>
   );
