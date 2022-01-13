@@ -47,6 +47,10 @@
   margin-top: 0;
 }
 
+.punkPrice {
+  display: none;
+}
+
 .lowerSection {
   display: flex;
   justify-content: space-between;
@@ -106,14 +110,36 @@
     margin-left: 25px;
   }
 
+  .heading {
+    display: flex;
+    flex-direction: column;
+  }
+
   .heading > h2 {
-    font-size: 25px;
+    font-size: 45px;
+    margin-bottom: 2%;
   }
 
   .heading > p {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 900;
   }
 
+  .punkPrice {
+    display: block;
+    margin: 1% 0%;
+  }
+
+  .punkPrice > img {
+    height: 25px;
+    width: 18px;
+  }
+
+  .punkPrice > span {
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 1.75%;
+  }
   .ownerImage {
     height: 35px;
     width: 35px;

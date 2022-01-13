@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/CardDetails.css";
+import weth from "../assets/weth.png";
 import instaLogo from "../assets/owner/instagram.png";
 import twitterLogo from "../assets/owner/twitter.png";
 import moreLogo from "../assets/owner/more.png";
@@ -10,6 +11,8 @@ const CardDetails = ({ punkList, selectedPunk }) => {
   useEffect(() => {
     setActivePunk(punkList[selectedPunk]);
   }, [punkList, selectedPunk]);
+
+  const price = activePunk.traits[0].value;
 
   return (
     <div className="showCardDetails">
@@ -25,6 +28,10 @@ const CardDetails = ({ punkList, selectedPunk }) => {
             <p>#{activePunk.token_id}</p>
           </div>
           <p className="punkDescription">{activePunk.description}</p>
+          <div className="punkPrice">
+            <img src={weth} alt="weth" />
+            <span>{price}</span>
+          </div>
         </div>
         <div className="lowerSection">
           <img

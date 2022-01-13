@@ -16,6 +16,7 @@
   .punkListContainer {
     flex-direction: column;
     border-bottom: none;
+    overflow-x: hidden;
     overflow-y: scroll;
   }
 
